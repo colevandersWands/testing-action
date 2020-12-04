@@ -5,16 +5,12 @@ console.log('--- loading prompt --> ');
 /**
  * a function that prompts the user to enter a word
  * if the user enters nothing or cancels, it will prompt them again
- * the input must contain only letters or hyphens, otherwise the user is prompted again
+ * if the input must contain only letters or a hyphen, or it will prompt again
  * @param {string} [message='enter a word'] - what the user will read in the prompt
  * @returns {string} the user input, it will not be empty
  */
 const enterWord = () => {
-  // an I/O loop:
-  //  a. prompt the user for a word
-  //  b. check if the input is actually a word (hint at the bottom of this page)
-  //  c. if it is a word, return the user input
-  //  d. otherwise prompt the user again
+  // there is a hint at the bottom of this page
 };
 
 {
@@ -61,19 +57,14 @@ const enterWord = () => {
 }
 
 {
-  // hint: you can use this regex to test if a string is a word
-  //  let's say a word is anything with only letters and hyphens
+  // hint:
   const wordRegex = /^[a-z|-]*$/i;
 
-  // strings with only letters and hyphens will return true
   const isAWord1 = wordRegex.test('asdf');
   const isAWord2 = wordRegex.test('---');
   const isAWord3 = wordRegex.test('as-df');
 
-  // strings with anything else will return false
   const isNotAWord1 = wordRegex.test('1234');
-  const isNotAWord2 = wordRegex.test('12-cd');
+  const isNotAWord2 = wordRegex.test('12-34');
   const isNotAWord3 = wordRegex.test('12df');
-
-  null;
 }
