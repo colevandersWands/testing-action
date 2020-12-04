@@ -13,4 +13,21 @@ const removeVowelsOrConsonants = () => {
   //  remove all consonants (lower and upper case) if the user selected "consonants"
   // 4. render a final before/after message with favoriteWord and the new string from ^ up there
   // 5. alert the rendered message
+
+  favoriteWord = 'test me'; //to test
+  if (favoriteWord === '') {
+    displayWord();
+  } else {
+
+    const chooseBetween = `do you want to remove all vowels or all consonants?\n- "vowels"\n- "consonants"`
+    //prompt
+    //const askToConfirm = prompt(chooseBetween);
+    //if (!askToConfirm) return;
+
+    // const reversedString = reverseString(favoriteWord);
+    // const description = 'your favorite word reversed';
+    // //render
+    // const render = beforeAndAfter(favoriteWord, reversedString, description);
+    alert(render);
+  }
 };

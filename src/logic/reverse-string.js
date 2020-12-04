@@ -7,9 +7,10 @@ console.log('--- loading logic --> ');
  * @param {string} [str=''] - the string to reverse
  * @returns {string} the reversed string
  */
-const reverseString = () => {};
-
-{
+const reverseString = (word = '') => {
+  const reversed = word.split('').reverse().join('');
+  return reversed;
+}; {
   const consoleLog = console.log;
   console.log = () => {};
 
