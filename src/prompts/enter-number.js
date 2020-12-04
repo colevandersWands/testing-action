@@ -8,13 +8,7 @@ console.log('--- loading prompt --> ');
  * @param {string} [message='enter a number'] - the text displayed to the user
  * @returns {number} a number cast from the user input (never NaN)
  */
-const enterNumber = () => {
-  // an I/O loop:
-  //  a. prompt the user for a number
-  //  b. check if the input is actually a number
-  //  c. if it is a number, return the user input (make sure it's type is 'number'!)
-  //  d. otherwise prompt the user again
-};
+const enterNumber = () => {};
 
 {
   // store I/O functions and console.log for later
