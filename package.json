@@ -1,0 +1,21 @@
+{
+  "name": "separated-domless-starter",
+  "version": "1.0.0",
+  "scripts": {
+    "document": "node ./lib/document.js ../src ../DOCS.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackyourfuturebelgium/separated-domless-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackyourfuturebelgium/separated-domless-starter/issues"
+  },
+  "homepage": "https://github.com/hackyourfuturebelgium/separated-domless-starter",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^6.0.1",
+    "prettier": "^2.2.1"
+  }
+}

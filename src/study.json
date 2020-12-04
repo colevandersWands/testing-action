@@ -1,0 +1,8 @@
+{
+  "study": {
+    "eval": true,
+    "loopGuard": true,
+    "save": true,
+    "flowchart": true
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div id="user-interface" class="centered">
+      <h2>Your Favorite Word</h2>
+      <button onclick="setWord();">set</button>
+      <button onclick="displayWord();">display</button>
+      <button onclick="clearWord();">clear</button>
+      <br />
+      <button onclick="reverseWord();">
+        reverse word
+      </button>
+      <br />
+      <button onclick="removeVowelsOrConsonants();">
+        remove vowels or consonants
+      </button>
+      <br />
+      <button onclick="repeatWordOrCharacters();">
+        repeat word or characters
+      </button>
+      <br />
+    </div>
+
+    <script src="./src/data.js"></script>
+
+    <script src="./src/prompts/choose-from-options.js"></script>
+    <script src="./src/prompts/enter-number.js"></script>
+    <script src="./src/prompts/enter-word.js"></script>
+
+    <script src="./src/logic/remove-characters.js"></script>
+    <script src="./src/logic/repeat-characters.js"></script>
+    <script src="./src/logic/repeat-string.js"></script>
+    <script src="./src/logic/reverse-string.js"></script>
+
+    <script src="./src/renders/before-and-after.js"></script>
+    <script src="./src/renders/describe-word.js"></script>
+
+    <script src="./src/interactions/display-word.js"></script>
+    <script src="./src/interactions/clear-word.js"></script>
+    <script src="./src/interactions/remove-vowels-or-consonants.js"></script>
+    <script src="./src/interactions/repeat-word-or-characters.js"></script>
+    <script src="./src/interactions/reverse-word.js"></script>
+    <script src="./src/interactions/set-word.js"></script>
+  </body>
+</html>
