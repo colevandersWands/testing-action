@@ -18,5 +18,5 @@ console.log('--- loading data --> ');
 /**
  * @type {string} - the user's saved word
  */
-let favoriteWord = '';
+let favoriteWord = "";
 console.assert(favoriteWord === '', 'initial value should be an empty string');
